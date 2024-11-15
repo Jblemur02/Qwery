@@ -1,0 +1,14 @@
+# Backend
+back/.env
+back/node_modules/
+back/.vscode/
+
+# Frontend (if applicable)
+front/node_modules/
+front/.env
+front/.vscode/
+
+# General files/folders to ignore
+node_modules/
+.env
+.vscode/
