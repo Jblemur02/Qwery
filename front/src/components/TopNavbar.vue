@@ -63,7 +63,7 @@
     <div id="links">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About us</router-link>
-      <router-link to="/contact">Login/Sign Up</router-link>
+      <router-link to="/login">Login/Sign Up</router-link>
     </div>
   </main>
 </template>
@@ -106,12 +106,13 @@ main {
 
 #links a {
   margin-left: 10px;
-  color: var(--tertiary);
-  font-size: larger;
+  color: var(--primary);
+  font-size: 1.1em;
   font-weight: bold;
   box-shadow: var(--shadow);
-  padding: 20px 10px;
+  padding: 5px 5px;
   position: relative;
+  border-radius: 5px;
 }
 
 #links a::before {

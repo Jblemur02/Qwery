@@ -44,16 +44,29 @@
           <p><i>Terms apply, prices subject to change. Cancel at any time.</i></p>
           <div class="tiers">
             <div class="tier">
-              <h3>Basic</h3>
-              <p>Only $50/month</p>
+              <h2>Basic</h2>
+              <div class="description">
+                <ul>
+                  <li>Task and deadline management</li>
+                  <li>Time tracking</li>
+                  <li>To-do list</li>
+                </ul>
+              </div>
+              <div class="price">
+                <h2>Free</h2>
+              </div>
             </div>
             <div class="tier">
-              <h3>Standard</h3>
-              <p>Only $80/month</p>
+              <h2>Standard</h2>
+              <div class="price">
+                <h2>5$/month</h2>
+              </div>
             </div>
             <div class="tier">
-              <h3>Premium</h3>
-              <p>Only $120/month</p>
+              <h2>Premium</h2>
+              <div class="price">
+                <h2>10$/month</h2>
+              </div>
             </div>
           </div>
         </div>
@@ -62,16 +75,22 @@
           <h3>Business plans</h3>
           <div class="tiers">
             <div class="tier">
-              <h3>Basic</h3>
-              <p>Only $50/month</p>
+              <h2>Basic</h2>
+              <div class="price">
+                <h2>2$/Account</h2>
+              </div>
             </div>
             <div class="tier">
-              <h3>Standard</h3>
-              <p>Only $80/month</p>
+              <h2>Standard</h2>
+              <div class="price">
+                <h2>10$/Account</h2>
+              </div>
             </div>
             <div class="tier">
-              <h3>Premium</h3>
-              <p>Only $120/month</p>
+              <h2>Premium</h2>
+              <div class="price">
+                <h2>20$/Account</h2>
+              </div>
             </div>
           </div>
         </div>
@@ -170,7 +189,8 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  gap: 1%;
+  padding: 1%;
   box-shadow: var(--shadow);
 }
 
@@ -178,6 +198,8 @@ main {
   display: flex;
   flex-direction: column;
   box-shadow: var(--shadow2);
-  padding: 40px;
+  padding: 0.5%;
+  width: 100%;
+  min-height: 40vh;
 }
 </style>
